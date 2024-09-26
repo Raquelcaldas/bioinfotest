@@ -1,0 +1,253 @@
+Analisando a qualidade dos reads
+application/gzip
+application/gzip
+Started analysis of 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 5% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 10% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 15% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 20% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 25% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 30% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 35% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 40% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 45% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 50% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 55% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 60% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 65% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 70% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 75% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 80% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 85% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 90% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Approx 95% complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Analysis complete for 510-7-BRCA_S8_L001_R1_001.fastq.gz
+Started analysis of 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 5% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 10% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 15% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 20% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 25% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 30% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 35% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 40% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 45% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 50% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 55% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 60% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 65% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 70% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 75% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 80% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 85% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 90% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Approx 95% complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Analysis complete for 510-7-BRCA_S8_L001_R2_001.fastq.gz
+Análise do FastQC concluída
+Filtrando reads com baixa qualidade
+This is cutadapt 4.9 with Python 3.12.6
+Command line parameters: -q 30 -o 510-7-BRCA_S8_L001_R1_001_trimado.fastq.gz ../0.dados_brutos/510-7-BRCA_S8_L001_R1_001.fastq.gz
+Processing single-end reads on 1 core ...
+Finished in 0.499 s (7.757 µs/read; 7.74 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  64,276
+Reads written (passing filters):        64,276 (100.0%)
+
+Total basepairs processed:     8,626,127 bp
+Quality-trimmed:                  34,873 bp (0.4%)
+Total written (filtered):      8,591,254 bp (99.6%)
+This is cutadapt 4.9 with Python 3.12.6
+Command line parameters: -q 30 -o 510-7-BRCA_S8_L001_R2_001_trimado.fastq.gz ../0.dados_brutos/510-7-BRCA_S8_L001_R2_001.fastq.gz
+Processing single-end reads on 1 core ...
+Finished in 0.527 s (8.206 µs/read; 7.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  64,276
+Reads written (passing filters):        64,276 (100.0%)
+
+Total basepairs processed:     8,628,461 bp
+Quality-trimmed:                  81,516 bp (0.9%)
+Total written (filtered):      8,546,945 bp (99.1%)
+Filtragem do Cutadapt concluída
+Mapeando reads com a referência
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 128552 sequences (17138199 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (9, 60916, 0, 8)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (122, 199, 324)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 728)
+[M::mem_pestat] mean and std.dev: (233.37, 136.54)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 930)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 128552 reads in 271.790 CPU sec, 120.562 real sec
+[main] Version: 0.7.18-r1243-dirty
+[main] CMD: bwa mem -t 10 -R @RG\tID:510-7\tSM:510-7-BRCA_S8_L001\tPL:ILLUMINA\tPU:unit1\tLB:lib1 ../bwa/hg19.fasta ../1.arquivos_trimados/510-7-BRCA_S8_L001_R1_001_trimado.fastq.gz ../1.arquivos_trimados/510-7-BRCA_S8_L001_R2_001_trimado.fastq.gz
+[main] Real time: 125.971 sec; CPU: 274.228 sec
+Mapeamento com BWA concluído
+Chamando variantes com o Freebayes
+Chamada de variantes com Freebayes concluída
+Anotando o vcf com o SnpEff
+00:00:00 SnpEff version SnpEff 5.2 (build 2023-09-29 06:17), by Pablo Cingolani
+00:00:00 Command: 'ann'
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'hg19'
+00:00:00 Reading config file: /Users/raquelcaldas/raquel/bioinfotest/4.anotacao_variantes/snpEff.config
+00:00:00 Reading config file: /Users/raquelcaldas/miniconda3/envs/bioinfoteste/share/snpeff-5.2-1/snpEff.config
+00:00:02 Codon table 'Vertebrate_Mitochondrial' assigned to chromosome 'M'
+00:00:02 Codon table 'Vertebrate_Mitochondrial' assigned to chromosome 'MT'
+00:00:02 done
+00:00:02 Reading database for genome version 'hg19' from file '/Users/raquelcaldas/miniconda3/envs/bioinfoteste/share/snpeff-5.2-1/./data/hg19/snpEffectPredictor.bin' (this might take a while)
+00:00:09 done
+00:00:09 Loading Motifs and PWMs
+00:00:09 Building interval forest
+00:00:12 done.
+00:00:12 Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Homo_sapiens (UCSC)'
+# Genome version             : 'hg19'
+# Genome ID                  : 'hg19[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 31178
+# Protein coding genes       : 21026
+#-----------------------------------------------
+# Transcripts                : 75682
+# Avg. transcripts per gene  : 2.43
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :  67041 ( 88.58% )
+#-----------------------------------------------
+# Protein coding transcripts : 57196
+#              Length errors :    115 ( 0.20% )
+#  STOP codons in CDS errors :    100 ( 0.17% )
+#         START codon errors :    136 ( 0.24% )
+#        STOP codon warnings :     21 ( 0.04% )
+#              UTR sequences :  56632 ( 74.83% )
+#               Total Errors :    298 ( 0.52% )
+#-----------------------------------------------
+# Cds                        : 586628
+# Exons                      : 749642
+# Exons with sequence        : 749642
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 9.91
+#-----------------------------------------------
+# Number of chromosomes      : 94
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'1'	249250621	Standard
+#		'2'	243199373	Standard
+#		'3'	198022430	Standard
+#		'4'	191154276	Standard
+#		'5'	180915260	Standard
+#		'6'	171115067	Standard
+#		'7'	159138663	Standard
+#		'X'	155270560	Standard
+#		'8'	146364022	Standard
+#		'9'	141213431	Standard
+#		'10'	135534747	Standard
+#		'11'	135006516	Standard
+#		'12'	133851895	Standard
+#		'13'	115169878	Standard
+#		'14'	107349540	Standard
+#		'15'	102531392	Standard
+#		'16'	90354753	Standard
+#		'17'	81195210	Standard
+#		'18'	78077248	Standard
+#		'20'	63025520	Standard
+#		'Y'	59373566	Standard
+#		'19'	59128983	Standard
+#		'22'	51304566	Standard
+#		'21'	48129895	Standard
+#		'6_ssto_hap7'	4928567	Standard
+#		'6_mcf_hap5'	4833398	Standard
+#		'6_cox_hap2'	4795371	Standard
+#		'6_mann_hap4'	4683263	Standard
+#		'6_apd_hap1'	4622290	Standard
+#		'6_qbl_hap6'	4611984	Standard
+#		'6_dbb_hap3'	4610396	Standard
+#		'17_ctg5_hap1'	1680828	Standard
+#		'4_ctg9_hap1'	590426	Standard
+#		'1_gl000192_random'	547496	Standard
+#		'Un_gl000225'	211173	Standard
+#		'4_gl000194_random'	191469	Standard
+#		'4_gl000193_random'	189789	Standard
+#		'9_gl000200_random'	187035	Standard
+#		'Un_gl000222'	186861	Standard
+#		'Un_gl000212'	186858	Standard
+#		'7_gl000195_random'	182896	Standard
+#		'Un_gl000223'	180455	Standard
+#		'Un_gl000224'	179693	Standard
+#		'Un_gl000219'	179198	Standard
+#		'17_gl000205_random'	174588	Standard
+#		'Un_gl000215'	172545	Standard
+#		'Un_gl000216'	172294	Standard
+#		'Un_gl000217'	172149	Standard
+#		'9_gl000199_random'	169874	Standard
+#		'Un_gl000211'	166566	Standard
+#		'Un_gl000213'	164239	Standard
+#		'Un_gl000220'	161802	Standard
+#		'Un_gl000218'	161147	Standard
+#		'19_gl000209_random'	159169	Standard
+#		'Un_gl000221'	155397	Standard
+#		'Un_gl000214'	137718	Standard
+#		'Un_gl000228'	129120	Standard
+#		'Un_gl000227'	128374	Standard
+#		'1_gl000191_random'	106433	Standard
+#		'19_gl000208_random'	92689	Standard
+#		'9_gl000198_random'	90085	Standard
+#		'17_gl000204_random'	81310	Standard
+#		'Un_gl000233'	45941	Standard
+#		'Un_gl000237'	45867	Standard
+#		'Un_gl000230'	43691	Standard
+#		'Un_gl000242'	43523	Standard
+#		'Un_gl000243'	43341	Standard
+#		'Un_gl000241'	42152	Standard
+#		'Un_gl000236'	41934	Standard
+#		'Un_gl000240'	41933	Standard
+#		'17_gl000206_random'	41001	Standard
+#		'Un_gl000232'	40652	Standard
+#		'Un_gl000234'	40531	Standard
+#		'11_gl000202_random'	40103	Standard
+#		'Un_gl000238'	39939	Standard
+#		'Un_gl000244'	39929	Standard
+#		'Un_gl000248'	39786	Standard
+#		'8_gl000196_random'	38914	Standard
+#		'Un_gl000249'	38502	Standard
+#		'Un_gl000246'	38154	Standard
+#		'17_gl000203_random'	37498	Standard
+#		'8_gl000197_random'	37175	Standard
+#		'Un_gl000245'	36651	Standard
+#		'Un_gl000247'	36422	Standard
+#		'9_gl000201_random'	36148	Standard
+#		'Un_gl000235'	34474	Standard
+#		'Un_gl000239'	33824	Standard
+#		'21_gl000210_random'	27682	Standard
+#		'Un_gl000231'	27386	Standard
+#		'Un_gl000229'	19913	Standard
+#		'M'	16571	Vertebrate_Mitochondrial
+#		'Un_gl000226'	15008	Standard
+#		'18_gl000207_random'	4262	Standard
+#		'MT'	1	Vertebrate_Mitochondrial
+#-----------------------------------------------
+
+00:00:16 Predicting variants
+00:00:16 Loading sequences for chromosome '13' from file '/Users/raquelcaldas/miniconda3/envs/bioinfoteste/share/snpeff-5.2-1/./data/hg19/sequence.13.bin'
+00:00:17 Building sequence tree for chromosome '13'
+00:00:17 Done. Loaded 478 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	1
+
+
+00:00:18 Creating summary file: snpEff_summary.html
+00:00:19 Creating genes file: snpEff_genes.txt
+00:00:19 done.
+00:00:19 Done.
+Anotação com SnpEff concluída
+Processamento concluído com sucesso
